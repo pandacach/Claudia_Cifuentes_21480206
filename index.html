@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cifu Computación</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <h1>Venta Mantenimiento y Reparación de Computadores</h1>
+
+    <p>Ofrecemos Servicios de: </span></p>
+
+    <h2 id="seccion1">
+         <p>
+            - Actualización de Hardware:
+        </p>
+        <ul>
+            <p> * Actualización de memoria RAM</p>
+            <p> * Intalación de perifericos</p>
+            <p> * Intalación de tarjetas graficadoras</p>
+        </ul>
+    </h2>
+
+    <h3 id="seccion2">
+        <p>
+            - Actualización e Instalación de Software:
+        </p>
+        <ul>
+            <p> * Actualización de Sistemas Operativos</p>
+            <p> * Instalación Software de Productividad</p>
+            <p> * Instalación de Controladores</p>
+            <p> * Instalación de Apps en General</p>
+        </ul>
+    </h3>  
+    <h4 id="seccion3">
+      <p>
+          - Comercialización de equipos de Cómputo
+          <a href="https://www.hp.com/">
+            <button class="boton"> Equipos Hewlett-Packard </button>
+          </a>
+      </p>
+    </h4>  
+   <div class="container"></div>
+   <form action="" class="form" id="form" autocomplete="off">
+    <p class="form-titulo">Regístro Clientes</p>
+    <div class="form-input clientname">
+      <input type="text" id="clientname">
+      <label for="clientname">Nombre: </label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-input lastname">
+      <input type="text" id="lastname">
+      <label for="lastname">Apellido(s):</label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-input idclient">
+        <input type="text" id="idclient" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+        <label for="idclient">Documento:</label>
+        <p class="mensajeError"></p>
+      </div>
+    <div class="form-input email">
+      <input type="email" id="email">
+      <label for="email">e-mail:</label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-input mobile">
+      <input type="text" id="mobile"onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+      <label for="mobile">Celular:</label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-input password">
+      <input type="password" id="password">
+      <label for="password">Contraseña:</label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-input confirmPassword">
+      <input type="password" id="confirmPassword">
+      <label for="confirmPassword">Confirmar Contraseña:</label>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-termsAndConditions termsAndConditions">
+      <input type="checkbox" id="termsAndConditions">
+      <label for="termsAndConditions">He leído y acepto los </label>
+      <a href="#">Términos y Condiciones</a>
+      <p class="mensajeError"></p>
+    </div>
+    <div class="form-boton" >
+      <input type="submit" value="Registrar Datos">
+    </div>
+    <p class="mensajeCorrecto"></p>
+  </form>
+</div>
+<script src="index.js"></script>
+
+</body>
+<footer>
+  <div class="copyRights">
+    &copy; <em>Claudia Andrea Cifuentes Hincapie</em>
+  </div>
+</footer>
+
+</html>
